@@ -1,0 +1,70 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #44644d;
+    font-family:sans-serif;
+}
+.container{
+    max-width: 950px;
+}
+.card{
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px rgb(151, 248, 6);
+}
+.card:hover {
+    transform: translateY(1px);
+    box-shadow: 0px -12px 0px rgb(151, 248, 6);
+}
+@media(max-width:767px){
+    .card{
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw;
+    }
+}
+.col-md-4{
+    padding:0  0.5rem;
+}
+.card-title{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'IM Fell French Canon SC';
+}
+.card-text{
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem;
+}
+.footer{
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+    font-family: 'sans-serif;';
+}
+#name {
+    font-size: 1.1rem;
+    font-weight: 550;
+    font-family: Serif;
+}
+#position {
+    line-height: inherit;
+    font-size: 0.8rem;
+}
+a{
+    color: rgb(151, 248, 6);
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(151, 248, 6);
+}
+.card.d-flex.mx-auto{
+    border-radius: 12px;
+}
+#text{
+    font-size: larger;
+}
